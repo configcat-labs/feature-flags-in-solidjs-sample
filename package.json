@@ -14,6 +14,7 @@
     "vite-plugin-solid": "^2.3.0"
   },
   "dependencies": {
+    "configcat-js": "^6.0.0",
     "randomcolor": "^0.6.2",
     "solid-js": "^1.5.1"
   }
