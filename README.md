@@ -8,10 +8,9 @@ This is a demo hex color palette app. It is used to demonstrate how to integrate
 
 Here is a screenshot:
 
-<!-- TODO: Add screenshot -->
+![Screenshot of sample app - with feature flag turned on](https://user-images.githubusercontent.com/74829200/191072543-b84cb0a0-26a4-4726-b7fa-0387f985f8fe.png)
 
-
-The random hex color generator feature as shown above is the new feature to be rolled out.
+The random hex color generator feature shown above is the new feature to be rolled out.
 
 ## How it works
 
