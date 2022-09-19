@@ -6,15 +6,14 @@ import * as configcat from "configcat-js";
 
 function App() {
   const hexColors = ["#34568B", "#FF6F61", "#6B5B95", "#88B04B"];
-  const [canShowRandomColorGenerator, setCanShowRandomColorGenerator] =
-    createSignal(true);
+  const [canShowRandomColorGenerator, setCanShowRandomColorGenerator] = createSignal(true);
 
   let configCatClient = configcat.createClient("6YzaCJW7q0WIJf6W33dEdg/UQcozJmaIkKYF55SxChDFw")
 
   configCatClient.getValueAsync("canshowrandomcolorgenerator",  false)
-.then( value => {
-  setCanShowRandomColorGenerator(value);
-});
+  .then( value => {
+    setCanShowRandomColorGenerator(value);
+  });
 
   return (
     <div className="app">
